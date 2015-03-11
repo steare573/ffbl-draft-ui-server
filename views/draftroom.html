@@ -1,5 +1,29 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="http://localhost:3000/primus/primus.js"></script>
 <script src="http://localhost:4000/js/ffbl-draft-client.js"></script>
-<div>
-What you talking about willis
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/draftroom.css">
+
+<div class="component-chat">
+  <div class="component-label">Chat</div>
+  <div class="conversation" id="conversation">
+  </div>
+  <input type="text" class="user-message" value="" />
+  <button type="button" class="submit-message">Send</button>
+</div>
+
+<div class="component-players-available">
+  <div class="component-label">Available</div>
+  <ul class="list">
+  </ul>
+</div>
+
+<div class="component-players-queued">
+  <div class="component-label">Queue</div>
+  <ul class="queue">
+  </ul>
+</div>
+<div class="draftboard">
+  <div class="component-label">Draftboard</div>
+  <ul>
+  </ul>
 </div>

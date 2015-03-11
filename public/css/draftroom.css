@@ -1,0 +1,46 @@
+.component-chat .conversation {
+	border: solid red 1px;
+	height: 200px;
+	width: 300px;
+}
+.component-chat .conversation .username {
+	color: blue;
+	margin-right: 2px;
+	font-weight: bold;
+}
+.component-players-available {
+	border: solid blue 1px;
+	height: 200px;
+	width: 300px;
+}
+
+.component-players-available .list {
+}
+
+.player-draft-link {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.player-queue-link {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.player-unqueue-link {
+	color:blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.draftboard {
+	border: green 1px solid;
+	height: 600;
+	width: 100%;
+}
+.component-players-queued {
+	border: solid orange 1px;
+	height: 200px;
+	width: 300px;
+}
